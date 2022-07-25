@@ -32,10 +32,10 @@ public class Initializer {
 
 		User user = new User();
 		user.setAtivo(true);
-		user.setEmail("teste@teste.com");
-		user.setNome("Kaique Arantes");
+		user.setEmail("guilherme@teste.com");
+		user.setNome("guilherme moraes");
 		user.setSenha(new BCryptPasswordEncoder().encode("123456"));
-		user.setUsername("karantes");
+		user.setUsername("taxinhs");
 		user.setRoles(Arrays.asList(roleAdmin));
 
 		userService.save(user);
